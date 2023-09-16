@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('tecsup.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+  }
+  
+  .box {
+    width: 500px;
+    background: rgba(0, 0, 0, .6);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px black;
+  }
+  
+  .box-img {
+    border-radius: 50%;
+  }
+  
+  .box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+  
+  .box p {
+    text-align: justify;
+  }
+  
+  .box ul {
+    margin-top: 20px;
+    list-style: none;
+  }
+  
+  .box ul li {
+    display: inline-block;
+  }
+  
+  .box ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    transition: all .5s ease-in-out;
+    display: block;
+  }
+  
+  .box ul li a:hover {
+    color:#b9b9b9;
+    transform: scale(1.3);
+  }
+  
+  .separador {
+    margin-top: 20px;
+  }
+  
+  .gustos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .gusto {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    background: rgba(0, 123, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .titulo_sec{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; /* Azul */
+  }
+  
+  .gusto img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .gusto p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  
