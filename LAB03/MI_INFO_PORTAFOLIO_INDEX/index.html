@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+   
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PRESENTACION</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">IDIOMAS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpg" alt="">
+            </div>
+            <h1>CRISTIAN HUILLCA GUTIERREZ</h1>
+            <h2>ESTUDIANTE - DESARROLLO DE SOFTWARE</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/Ehg.Cris"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/crishguti/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="//wa.me/+51973694612/?text=urlencodedtext"><i class="fa-brands fa-whatsapp"></i></a>
+               
+                
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí / About me</h2>
+            <p><span>Hola, soy Cristian Huillca Gutierrez</span> Soy un estudiante de Tecsup con ganas de seguir aprendiendo mas sobre programacion, me gusta escuchar musica y hacer deporte , me gusta jugar voley y futbol que son mis deportes favoritos </p>
+
+            <div class="fila">
+                
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            07-12-1994
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51973694612
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            cristian.huillca@tecsup.edu.pe
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            crishguti.github.io
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Residencial Jardines de Porongoche P-203
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                       
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                      
+                                            
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                MI GITHUB <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+              
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                <h3>Professional Skills</h3>
+                    
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Puntualidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+   
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>IDIOMAS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/ingles.png" alt="">
+                    <div class="overlay">
+                        <h3>NIVEL INTERMEDIO</h3>
+                        <p>idioma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portu.jpg" alt="">
+                    <div class="overlay">
+                        <h3>NIVEL basico</h3>
+                        <p>idioma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/itali.png" alt="">
+                    <div class="overlay">
+                        <h3>NIVEL BASICO</h3>
+                        <p>idioma</p>
+                    </div>
+                </div>
+                             
+                
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+               
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+               
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Residencial Jardines de Porongoche p-203
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +51973694612 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ehg_cris@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+
+            <a href="https://www.facebook.com/Ehg.Cris"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/crishguti/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="//wa.me/+51973694612/?text=urlencodedtext"><i class="fa-brands fa-whatsapp"></i></a>
+         
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

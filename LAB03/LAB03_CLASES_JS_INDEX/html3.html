@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>page title</title>
+    <script>
+        function muestraopcion(){
+            var opciones = document.getElementsByName("eleccion");
+            console.log(opciones);
+            for(let i = 0; i < opciones.length; i++){
+                if(opciones[i].checked){
+                    alert(opciones[i].value);
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="radio" name="eleccion" value="opcion1" checked onclick="muestraopcion()">opcion1 <br/>
+    <input type="radio" name="eleccion" value="opcion2" checked onclick="muestraopcion()">opcion2 <br/>
+    <input type="radio" name="eleccion" value="opcion3" checked onclick="muestraopcion()">opcion3 <br/>
+
+</body>
+</html>
